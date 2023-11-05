@@ -1,0 +1,40 @@
+
+.features {
+    margin-top: 4rem;
+}
+
+.feature {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.feature > img {
+    width: 100%;
+    border-radius: 20px ;
+    max-width: 450px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+
+.featureswrapped {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.feature-title {
+   font-size: 2rem;
+}
+
+.feature > p {
+    padding: 1rem 0;
+}
+
+
+@media (min-widht: 768px) {
+    .featureswrapped {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
