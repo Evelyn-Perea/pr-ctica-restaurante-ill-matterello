@@ -1,5 +1,7 @@
-# practica-restaurante-ill-matterello
+# proyecto-restaurante-ill-matterello
 
-# Práctica de HTML, CSS y JS
+# Práctica de HTML, CSS y JS 
+
+
 
 
